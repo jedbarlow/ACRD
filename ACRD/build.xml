@@ -8,7 +8,7 @@
 	<property name="pluginName" value="ACRD"/>
 
 	<!-- The path to your clcdeveloperkit //-->
-	<property name="sdkDir" value="../CLCGenomicsDeveloperKit"/>
+	<property name="sdkDir" value="../../CLCGenomicsDeveloperKit"/>
 
 	<!-- ### Advanced Properties (Normally you should not have to change these) ### //-->
 	<property name="pluginDescFile" value="plugin_description"/>
