@@ -138,10 +138,16 @@ public class ACRDAlgo extends Algo implements PermissionController {
 				"Number of different residues, per annotated region, between consensus and mapped reads",
 				new String[] {
 						"Annotation",
-						"Difference Count"
+						"Difference Count",
+						"Length",
+						"Differences/Length",
 				});
 		for (int i = 0; i < names.size(); i++) {
-			builder.addRow(names.get(i), errorCounts.get(i));
+			builder.addRow(
+					names.get(i),
+					errorCounts.get(i),
+					regions.get(i).getSize(),
+					((double)errorCounts.get(i))/((double)regions.get(i).getSize()));
 		}
 
 		return builder.finish();
