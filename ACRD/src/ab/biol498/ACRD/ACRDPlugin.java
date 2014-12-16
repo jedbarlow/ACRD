@@ -15,7 +15,6 @@ import com.clcbio.api.free.gui.components.MultiSelectClassRestrictor;
 import com.clcbio.api.free.gui.components.MultiSelectRestrictor;
 import com.clcbio.api.free.gui.dialog.ClcMessages;
 import com.clcbio.api.free.workbench.WorkbenchManager;
-import com.clcbio.plugins.finishingtools.contigaligner.table.*;
 
 public class ACRDPlugin extends AlgoAction {
     private static final long serialVersionUID = 4200858980932875067L;
