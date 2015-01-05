@@ -1,4 +1,4 @@
-Annotated Consensus-Reads Differencer (ACRD)
+Annotated Consensus-Reads Difference (ACRD)
 
 ----
 
